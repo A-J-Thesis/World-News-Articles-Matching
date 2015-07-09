@@ -58,12 +58,12 @@ class NewsArticle:
  #       ner = NERTagger('/home/aris/Desktop/Similar-World-News-Articles/stanford-lib/english.all.3class.distsim.crf.ser.gz',
  #       '/home/aris/Desktop/Similar-World-News-Articles/stanford-lib/stanford-ner.jar')
         try:
-            ner = StanfordNERTagger('stanford-lib/english.all.3class.distsim.crf.ser.gz',
+            ner = StanfordNERTagger('../lib/stanford-lib/english.all.3class.distsim.crf.ser.gz',
             'stanford-lib/stanford-ner.jar')
             extracted_ne2 = ner.tag(self.metadata["plaintext"].replace(".", " ").replace(",", " , ").replace("!", " ").replace("?", " ").replace("\n"," ").split())
             extracted_ne = extracted_ne2            
         except:
-            ner = NERTagger('stanford-lib/english.all.3class.distsim.crf.ser.gz',
+            ner = NERTagger('../lib/stanford-lib/english.all.3class.distsim.crf.ser.gz',
             'stanford-lib/stanford-ner.jar')            
             extracted_ne2 = ner.tag(self.metadata["plaintext"].replace(".", " ").replace(",", " , ").replace("!", " ").replace("?", " ").replace("\n"," ").split())
             extracted_ne = extracted_ne2[0]

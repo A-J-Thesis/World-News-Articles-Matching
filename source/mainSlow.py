@@ -57,17 +57,17 @@ similarity_threshold = config.getfloat('similarity_threshold', 'percentage')
 aggr = NewsAggregator(similarity_threshold,weights)
 
 #Read all files from folder
-xmlfiles = [ f for f in listdir("filesXml") if isfile(join("filesXml",f)) ]
+xmlfiles = [ f for f in listdir("../filesXML") if isfile(join("../filesXML",f)) ]
 progressBar = ProgressBar(int(len(xmlfiles)))
 supportBar = SupportBar()
 
 #create file for results
-results = open('results.txt', 'w+')
-debug = open('debug.txt', 'w+')
+results = open('../output/results.txt', 'w+')
+debug = open('../output/debug.txt', 'w+')
 
 id = -1
 for filename in xmlfiles:
-    larct = parse("filesXml/" + filename)
+    larct = parse("../filesXML/" + filename)
     sys.stdout.write("(" + str(len(larct)) + "/" )
     sys.stdout.flush()
     for arcticle in larct:

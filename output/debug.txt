@@ -1,0 +1,2 @@
+dailynews.xml
+Done.

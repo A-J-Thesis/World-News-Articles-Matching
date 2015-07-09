@@ -67,7 +67,7 @@ debug = open('../output/debug.txt', 'w+')
 
 id = -1
 for filename in xmlfiles:
-    larct = parse("filesXml/" + filename)
+    larct = parse("../filesXML/" + filename)
     sys.stdout.write("(" + str(len(larct)) + "/" )
     sys.stdout.flush()
     for arcticle in larct:

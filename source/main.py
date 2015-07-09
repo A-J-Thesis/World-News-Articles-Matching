@@ -11,120 +11,121 @@ from os.path import isfile, join
 from time import sleep
 from ProgressBar import ProgressBar
 from ProgressBar import SupportBar
-
-#Handle CTR+C
-#def signal_handler(signal, frame):
-#    print('You pressed Ctrl+C!')
-#    sys.exit(0)
-#signal.signal(signal.SIGINT, signal_handler)
-
-
-#each Article has a unique local_id
-id = Value('i',0)
-lock = Lock()
-
-#only for prints
-##supplock = Lock()
-##supportBar = SupportBar()
-
+try:
+    from configparser import ConfigParser
+except ImportError:
+    from ConfigParser import ConfigParser  # ver. < 3.0
+    
+def ExportResults(aggr):
+    results = []
+    for topic in aggr.topics:
+        if len(aggr.topics[topic]) > 1:
+            temp_links = []
+            temp_plaintexts = []
+            for idx in aggr.topics[topic]:
+                if aggr.articles[idx].metadata["plaintext"] not in temp_plaintexts:
+                    temp_plaintexts.append(aggr.articles[idx].metadata["plaintext"])
+                    temp_links.append(aggr.articles[idx].url)
+            if len(temp_links) >= 2:
+                results.append(temp_links)
+    return results
+    
 #some Countries
 countries = ["Greece"]
+#read weights values from property file
+# instantiate
+config = ConfigParser()
 
-def parallel_arct(arg):
-    arcticle = arg
-    local_id = 0
-    with lock:
-        local_id = id.value
-        id.value += 1
-    try:
-        newarticle = NewsArticle(local_id, arcticle[0], arcticle[1], arcticle[2], arcticle[3], arcticle[4], countries)
-        newarticle.extract_metadata()
-    except Exception:
-        print "Constructor"
-    
-    return newarticle
-    
-##    with supplock:
-##        supportBar.increase()
-##        size = len(str(supportBar.get()))
-##        spaces = ' ' * (5 - size)
-##        sys.stdout.write("{0}{1}\b\b\b\b\b".format(supportBar.get(), spaces))
-##        sys.stdout.flush()
-    
-    
-    
-#set 40% similarity
-aggr = NewsAggregator(0.40)
+# parse existing file
+config.read('properties.ini')
 
-#Number of Pools
-proc_pool = Pool()
+# read values from a section
+weights = []
+weights.append(config.getint('weights_values', 'noun_phrases'))
+weights.append(config.getint('weights_values', 'hashtags'))
+weights.append(config.getint('weights_values', 'title'))
+weights.append(config.getint('weights_values', 'persons'))
+weights.append(config.getint('weights_values', 'organizations'))
+weights.append(config.getint('weights_values', 'locations'))
+weights.append(config.getint('weights_values', 'countries'))
+weights.append(config.getint('weights_values', 'places'))
+weights.append(config.getint('weights_values', 'plaintext'))
+weights.append(config.getint('weights_values', 'description'))
+similarity_threshold = config.getfloat('similarity_threshold', 'percentage')
+
+#set 35% similarity
+aggr = NewsAggregator(similarity_threshold,weights)
 
 #Read all files from folder
 xmlfiles = [ f for f in listdir("filesXml") if isfile(join("filesXml",f)) ]
 progressBar = ProgressBar(int(len(xmlfiles)))
+supportBar = SupportBar()
 
 #create file for results
 results = open('results.txt', 'w+')
 debug = open('debug.txt', 'w+')
 
-   
+id = -1
 for filename in xmlfiles:
     larct = parse("filesXml/" + filename)
-    #for arcticle in larct:
-        #newarticle = NewsArticle(id, arcticle[0], arcticle[1], arcticle[2], arcticle[3], arcticle[4], countries)
-        #newarticle.extract_metadata()
+    sys.stdout.write("(" + str(len(larct)) + "/" )
+    sys.stdout.flush()
+    for arcticle in larct:
+        id += 1
+        try:
+            newarticle = NewsArticle(id, arcticle[0], arcticle[1], arcticle[2], arcticle[3], arcticle[4], countries)
+            newarticle.extract_metadata()
 
-    try:
-        ##sys.stdout.write("(" + str(len(larct)) + "/" )
-        ##sys.stdout.flush()
-        newsarticles = proc_pool.map_async(parallel_arct, larct).get(9999999999)
-        
-        for newarticle in newsarticles:
             aggr.add_article(newarticle)
-
-        ##supportBar.init()
-        progressBar.update()
-        debug.write(filename + " Done.\n")
-        #debug.write("\n".join(aggr.topics) + "\n")
-        for topic in aggr.topics:
-            if len(aggr.topics[topic]) > 1:
-                debug.write("---------------------------------------------------------\n")
-                for id in aggr.topics[topic]:
-                    debug.write(aggr.articles[id].url + "\n")
-                debug.write("---------------------------------------------------------\n")
+            
+            #Update StatusBar
+            supportBar.increase()
+            size = len(str(supportBar.get()))
+            spaces = ' ' * (4 - size)
+            sys.stdout.write("{0}){1}\b\b\b\b\b".format(supportBar.get(), spaces))
+            sys.stdout.flush()
+            
+        except KeyboardInterrupt:
+            print "\nProgram Closed Successfully!"
+            sys.exit(1)
+        except Exception,e:
+            print "\nException occurred!" + filename
+            print str(e)
+    supportBar.init()
+    progressBar.update()
+    
+    #Write to Debug File
+    finalResults = ExportResults(aggr)
+    
+    debug.write(filename + "\nDone.\n")
+    debug.flush()
+    for group in finalResults:
+        debug.write("---------------------------------------------------------\n")
+        for link in group:
+            debug.write(link + "\n")
+        debug.write("---------------------------------------------------------\n")
         debug.flush()
-    except KeyboardInterrupt:
-        proc_pool.terminate()
-        print "Program Closed Successfully!"
-        sys.exit(1)
-    except Exception:
-        print "Exception occurred!"
-
-#    newsarticles = proc_pool.map(parallel_arct, larct)
-#    
-#    for newarticle in newsarticles:
-#        aggr.add_article(newarticle)
-#        
-#    print filename + " done"
-#    print aggr.topics
-#    for topic in aggr.topics:
-#        if len(aggr.topics[topic]) > 1:
-#            print "---------------------------------------------------------"
-#            print "MATCH FOUND"
-#            for id in aggr.topics[topic]:
-#                print aggr.articles[id].url
-#            print "---------------------------------------------------------"
 
 #print "All filenames Completed."
 
-for topic in aggr.topics:
-    if len(aggr.topics[topic]) > 1:
-        results.write("---------------------------------------------------------\n")
-        results.write("MATCH FOUND\n")
-        for id in aggr.topics[topic]:
-            results.write(aggr.articles[id].url + "\n")
-        results.write("---------------------------------------------------------\n")
-        results.flush()
+#for topic in aggr.topics:
+#    if len(aggr.topics[topic]) > 1:
+#        results.write("---------------------------------------------------------\n")
+#        results.write("MATCH FOUND\n")
+#        for id in aggr.topics[topic]:
+#            results.write(aggr.articles[id].url + "\n")
+#        results.write("---------------------------------------------------------\n")
+#        results.flush()
+
+finalResults = list(reversed(sorted(ExportResults(aggr), key=len)))
+for group in finalResults:
+    results.write("---------------------------------------------------------\n")
+    results.write("MATCH FOUND\n")
+    for link in group:
+        results.write(link + "\n")
+    results.write("---------------------------------------------------------\n")
+    results.flush()
+        
 
 
 

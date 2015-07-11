@@ -11,7 +11,7 @@ from nltk.corpus import stopwords
 
 
 class NewsArticle:
-    def __init__(self, id, title, date, text, url, description, countries):
+    def __init__(self, id, title, date, text, url, description):
         self.id = id
         self.title = title
         self.date = date
@@ -20,7 +20,6 @@ class NewsArticle:
         self.metadata["description"] = description
         self.metadata["title"] = title
         self.url = url
-        self.countries = countries
         self.heuristics()
     
     def heuristics(self):
@@ -102,11 +101,11 @@ class NewsArticle:
 
         return aggregated_results
 
-    def is_country(self, c):
-        if c in self.countries:
-            return True
-        else:
-            return False
+#    def is_country(self, c):
+#        if c in self.countries:
+#            return True
+#        else:
+#            return False
 
     def unify_locations(self, named_entities):
         # rules:    LOCATION in LOCATION

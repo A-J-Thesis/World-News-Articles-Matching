@@ -31,7 +31,7 @@ def ExportResults(aggr):
     return results
     
 #some Countries
-countries = ["Greece"]
+#countries = ["Greece"]
 #read weights values from property file
 # instantiate
 config = ConfigParser()
@@ -73,7 +73,7 @@ for filename in xmlfiles:
     for arcticle in larct:
         id += 1
         try:
-            newarticle = NewsArticle(id, arcticle[0], arcticle[1], arcticle[2], arcticle[3], arcticle[4], countries)
+            newarticle = NewsArticle(id, arcticle[0], arcticle[1], arcticle[2], arcticle[3], arcticle[4])
             newarticle.extract_metadata()
 
             aggr.add_article(newarticle)

@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
+# Project:  World News Articles Matching
+# File:     ProgressBar.py
+# Authors:  Jason Papapanagiotakis, Aris Kotsomitopoulos
+# Github:   https://github.com/A-J-Thesis/World-News-Arcticles-Matching
 import time
 import sys
 import math
 
-#HOMEMADE WITHOUT ONLINE CODE by Aris
-#LIENCE BY ARIS
 class ProgressBar:
 
     def __init__(self,max_size=36):

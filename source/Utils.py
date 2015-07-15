@@ -1,4 +1,8 @@
-__author__ = 'jason'
+# Project:  World News Articles Matching
+# File:     Utils.py
+# Authors:  Jason Papapanagiotakis, Aris Kotsomitopoulos
+# Github:   https://github.com/A-J-Thesis/World-News-Arcticles-Matching
+
 from collections import Counter
 import math
 import nltk

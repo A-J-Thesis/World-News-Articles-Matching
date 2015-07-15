@@ -1,3 +1,8 @@
+# Project:  World News Articles Matching
+# File:     XMLparser.py
+# Authors:  Jason Papapanagiotakis, Aris Kotsomitopoulos
+# Github:   https://github.com/A-J-Thesis/World-News-Arcticles-Matching
+
 import xml.sax
 from xml.dom.minidom import parse
 import xml.dom.minidom

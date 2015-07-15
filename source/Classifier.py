@@ -1,4 +1,7 @@
-__author__ = 'jason'
+# Project:  World News Articles Matching
+# File:     Classifier.py
+# Authors:  Jason Papapanagiotakis, Aris Kotsomitopoulos
+# Github:   https://github.com/A-J-Thesis/World-News-Arcticles-Matching
 
 import Utils
 
@@ -36,8 +39,8 @@ class Classifier:
             score = Utils.text_similarity(self.content, content)
         elif content_type == "title":
             score = Utils.text_similarity(self.content, content)
-        #elif content_type == "description":
-         #   score = Utils.text_similarity(self.content, content)
+        elif content_type == "description":
+           score = Utils.text_similarity(self.content, content)
 
         return score
 

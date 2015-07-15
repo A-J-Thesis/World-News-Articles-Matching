@@ -1,12 +1,15 @@
-__author__ = 'jason'
+# Project:  World News Articles Matching
+# File:     geonames.py
+# Authors:  Jason Papapanagiotakis, Aris Kotsomitopoulos
+# Github:   https://github.com/A-J-Thesis/World-News-Arcticles-Matching
 
 
-def geo_search(query):
-    results = dict()
-    # use the geonames webAPI to fill dictionary with data
-    results["country"] = "Greece"
+# def geo_search(query):
+#     results = dict()
+#     # use the geonames webAPI to fill dictionary with data
+#     results["country"] = "Greece"
 
-    return results
+#     return results
 
 
 import urllib2

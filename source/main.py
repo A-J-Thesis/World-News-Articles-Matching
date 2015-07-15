@@ -1,3 +1,8 @@
+# Project:  World News Articles Matching
+# File:     main.py
+# Authors:  Jason Papapanagiotakis, Aris Kotsomitopoulos
+# Github:   https://github.com/A-J-Thesis/World-News-Arcticles-Matching
+
 from NewsAggregator import NewsAggregator
 from NewsArticle import NewsArticle
 from XMLparser import *
@@ -11,27 +16,27 @@ from os.path import isfile, join
 from time import sleep
 from ProgressBar import ProgressBar
 from ProgressBar import SupportBar
+from ExportFunctions import *
 try:
     from configparser import ConfigParser
 except ImportError:
     from ConfigParser import ConfigParser  # ver. < 3.0
     
-def ExportResults(aggr):
-    results = []
-    for topic in aggr.topics:
-        if len(aggr.topics[topic]) > 1:
-            temp_links = []
-            temp_plaintexts = []
-            for idx in aggr.topics[topic]:
-                if aggr.articles[idx].metadata["plaintext"] not in temp_plaintexts:
-                    temp_plaintexts.append(aggr.articles[idx].metadata["plaintext"])
-                    temp_links.append(aggr.articles[idx].url)
-            if len(temp_links) >= 2:
-                results.append(temp_links)
-    return results
+# def ExportResults(aggr):
+#     results = []
+#     for topic in aggr.topics:
+#         if len(aggr.topics[topic]) > 1:
+#             temp_links = []
+#             temp_plaintexts = []
+#             for idx in aggr.topics[topic]:
+#                 if aggr.articles[idx].metadata["plaintext"] not in temp_plaintexts:
+#                     temp_plaintexts.append(aggr.articles[idx].metadata["plaintext"])
+#                     temp_links.append(aggr.articles[idx].url)
+#             if len(temp_links) >= 2:
+#                 results.append(temp_links)
+#     return results
     
-#some Countries
-#countries = ["Greece"]
+
 #read weights values from property file
 # instantiate
 config = ConfigParser()

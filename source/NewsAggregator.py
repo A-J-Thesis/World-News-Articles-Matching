@@ -1,3 +1,8 @@
+# Project:  World News Articles Matching
+# File:     NewsAggregator.py
+# Authors:  Jason Papapanagiotakis, Aris Kotsomitopoulos
+# Github:   https://github.com/A-J-Thesis/World-News-Arcticles-Matching
+
 from __future__ import division
 from Classifier import *
 
@@ -28,8 +33,6 @@ class NewsAggregator:
             else:                               # matching topic found
                 self.topics[topic_id].append(article.id)    # add article to topic's list
                 # if we need to update classifiers, do it here
-                #
-                #
 
     def add_topic(self, article):
         # create a new topic based on the article
@@ -71,12 +74,6 @@ class NewsAggregator:
         maximum_score = 0
         topic_id = -1
         for topic in topics_score:
-
-            #print "score of topic: "    #debug
-            #print topic                 #debug
-            #print "is "                 #debug
-            #print topics_score[topic]   #debug
-
             if topics_score[topic] > maximum_score:
                 maximum_score = topics_score[topic]
                 topic_id = topic
@@ -109,11 +106,7 @@ class NewsAggregator:
             weight = NewsAggregator.weights[8]
         elif var_type == "description":
             weight = NewsAggregator.weights[9]
-        
-        #print var_type
-        """if var_type == "plaintext":
-            weight = 17
-        """
+
         sum_of_weights = sum(NewsAggregator.weights)
 
         return (score * weight) / sum_of_weights

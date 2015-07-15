@@ -21,21 +21,7 @@ try:
     from configparser import ConfigParser
 except ImportError:
     from ConfigParser import ConfigParser  # ver. < 3.0
-    
-# def ExportResults(aggr):
-#     results = []
-#     for topic in aggr.topics:
-#         if len(aggr.topics[topic]) > 1:
-#             temp_links = []
-#             temp_plaintexts = []
-#             for idx in aggr.topics[topic]:
-#                 if aggr.articles[idx].metadata["plaintext"] not in temp_plaintexts:
-#                     temp_plaintexts.append(aggr.articles[idx].metadata["plaintext"])
-#                     temp_links.append(aggr.articles[idx].url)
-#             if len(temp_links) >= 2:
-#                 results.append(temp_links)
-#     return results
-    
+        
 
 #read weights values from property file
 # instantiate
@@ -58,7 +44,6 @@ weights.append(config.getint('weights_values', 'plaintext'))
 weights.append(config.getint('weights_values', 'description'))
 similarity_threshold = config.getfloat('similarity_threshold', 'percentage')
 
-#set 35% similarity
 aggr = NewsAggregator(similarity_threshold,weights)
 
 #Read all files from folder
@@ -111,17 +96,6 @@ for filename in xmlfiles:
         debug.write("---------------------------------------------------------\n")
         debug.flush()
 
-#print "All filenames Completed."
-
-#for topic in aggr.topics:
-#    if len(aggr.topics[topic]) > 1:
-#        results.write("---------------------------------------------------------\n")
-#        results.write("MATCH FOUND\n")
-#        for id in aggr.topics[topic]:
-#            results.write(aggr.articles[id].url + "\n")
-#        results.write("---------------------------------------------------------\n")
-#        results.flush()
-
 finalResults = list(reversed(sorted(ExportResults(aggr), key=len)))
 for group in finalResults:
     results.write("---------------------------------------------------------\n")
@@ -131,11 +105,6 @@ for group in finalResults:
     results.write("---------------------------------------------------------\n")
     results.flush()
         
-
-
-
-
-
-    
-    
+results.close()
+debug.close() 
     

@@ -63,8 +63,6 @@ class NewsAggregator:
                 classifier = topic_classifier[1]
                 score = classifier.classify(classifier_type, article.metadata[classifier_type])
                 weighted_score = self.apply_weights(score, classifier_type)
-                #print classifier_type
-                #print weighted_score
                 if topic_id in topics_score:
                     topics_score[topic_id] += weighted_score
                 else:

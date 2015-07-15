@@ -1,0 +1,20 @@
+---------------------------------------------------------
+MATCH FOUND
+http://www.bbc.co.uk/news/uk-politics-33456160#sa-ns_mchannel=rss&ns_source=PublicRSS20-sa
+http://www.bbc.co.uk/news/uk-politics-33437115#sa-ns_mchannel=rss&ns_source=PublicRSS20-sa
+---------------------------------------------------------
+---------------------------------------------------------
+MATCH FOUND
+http://abcnews.go.com/International/wireStory/greece-seeks-year-aid-program-rushes-detail-reforms-32307343
+http://hosted2.ap.org/APDEFAULT/cae69a7523db45408eeb2b3a98c0c9c5/Article_2015-07-08-EU--Greece-Bailout/id-736a128502e64c62b207d5c501fac839
+---------------------------------------------------------
+---------------------------------------------------------
+MATCH FOUND
+http://abcnews.go.com/International/wireStory/boko-haram-offers-swap-detainees-kidnapped-girls-32299173
+http://hosted2.ap.org/APDEFAULT/cae69a7523db45408eeb2b3a98c0c9c5/Article_2015-07-08-AF--Nigeria-Kidnapped%20Girls/id-b68aab61115543aaa9f366e48037c088
+---------------------------------------------------------
+---------------------------------------------------------
+MATCH FOUND
+http://abcnews.go.com/International/wireStory/latest-pope-wrap-time-ecuador-fly-bolivia-32299851
+http://abcnews.go.com/International/wireStory/pope-wraps-ecuador-leg-samerica-trip-stop-bolivia-32290664
+---------------------------------------------------------

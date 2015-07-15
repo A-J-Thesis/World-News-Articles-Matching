@@ -9,7 +9,6 @@ import nltk
 import string
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-
 # main functions used by others
 def list_similarity(list1, list2):
     c1, c2 = Counter(list1), Counter(list2)
@@ -64,13 +63,3 @@ def length_similarity(c1, c2):
         return min(lenc1, lenc2) / maxi
     else:
         return 0
-
-
-
-
-
-
-
-
-
-

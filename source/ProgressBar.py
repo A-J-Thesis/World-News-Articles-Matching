@@ -3,6 +3,7 @@
 # File:     ProgressBar.py
 # Authors:  Jason Papapanagiotakis, Aris Kotsomitopoulos
 # Github:   https://github.com/A-J-Thesis/World-News-Arcticles-Matching
+
 import time
 import sys
 import math

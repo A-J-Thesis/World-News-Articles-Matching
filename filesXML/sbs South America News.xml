@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <site name="sbs South America News">
     <Article id="0">
-        <date>Tue Jun 23 04:45:32 EEST 2015</date>
+        <date>Tue Jun 23 19:45:32 EEST 2015</date>
         <title>Cat-astrophe averted: Pilot discovers stowaway cat mid-flight</title>
         <Link>http://sbs.feedsportal.com/c/34692/f/637534/s/4779d2ff/sc/3/l/0L0Ssbs0N0Bau0Cnews0Carticle0C20A150C0A60C230Ccat0Eastrophe0Eaverted0Epilot0Ediscovers0Estowaway0Ecat0Emid0Eflight/story01.htm</Link>
         <Description>A video has emerged of a stowaway cat holding on for dear life onboard an open air flight in South America. And it’s fur real.</Description>
@@ -18,7 +18,7 @@ Advertisement
 </MainBody>
     </Article>
     <Article id="1">
-        <date>Mon Jun 22 01:50:23 EEST 2015</date>
+        <date>Mon Jun 22 16:50:23 EEST 2015</date>
         <title>Chilean grandmother &amp;#039;carried calcified foetus for 50 years&amp;#039;</title>
         <Link>http://sbs.feedsportal.com/c/34692/f/637534/s/4771bb5d/sc/3/l/0L0Ssbs0N0Bau0Cnews0Carticle0C20A150C0A60C220Cchilean0Egrandmother0Ecarried0Ecalcified0Efoetus0E50A0Eyears/story01.htm</Link>
         <Description>Doctors have discovered a calcified foetus inside a 92-year-old woman in Chile.</Description>
@@ -43,6 +43,21 @@ Advertisement
 </MainBody>
     </Article>
     <Article id="2">
+        <date>Sun Jun 21 00:30:24 EEST 2015</date>
+        <title>6.4-magnitude quake jolts Chile</title>
+        <Link>http://sbs.feedsportal.com/c/34692/f/637534/s/476956e4/sc/31/l/0L0Ssbs0N0Bau0Cnews0Carticle0C20A150C0A60C20A0C640Emagnitude0Equake0Ejolts0Echile/story01.htm</Link>
+        <Description>A 6.4-magnitude earthquake has hit the coast of central Chile.</Description>
+        <MainBody>20 Jun 2015 - 5:07pm
+6.4-magnitude quake jolts Chile
+A picture made available on 10 June 2015 shows a general view of the Estadio Nacional stadium in Santiago, Chile. (EPA)
+A 6.4-magnitude earthquake has hit the coast of central Chile.
+Source:
+There were no immediate reports of injuries or damage.
+Saturday's quake struck about 75km off the port city of Talcahuano on the Bay of Concepcion.
+Talcahuano hosts a key naval base and is the main industrial and fishing port in the region.
+</MainBody>
+    </Article>
+    <Article id="3">
         <date>Sat Jun 20 19:33:06 EEST 2015</date>
         <title>Colombia cops bust drug implants bid</title>
         <Link>http://sbs.feedsportal.com/c/34692/f/637534/s/47690dff/sc/3/l/0L0Ssbs0N0Bau0Cnews0Carticle0C20A150C0A60C20A0Ccolombia0Ecops0Ebust0Edrug0Eimplants0Ebid/story01.htm</Link>
@@ -59,23 +74,8 @@ The suspect eventually confessed that implants with an unknown substance had bee
 The woman was taken to a hospital, where the cocaine was removed from her body.
 </MainBody>
     </Article>
-    <Article id="3">
-        <date>Sat Jun 20 09:30:24 EEST 2015</date>
-        <title>6.4-magnitude quake jolts Chile</title>
-        <Link>http://sbs.feedsportal.com/c/34692/f/637534/s/476956e4/sc/31/l/0L0Ssbs0N0Bau0Cnews0Carticle0C20A150C0A60C20A0C640Emagnitude0Equake0Ejolts0Echile/story01.htm</Link>
-        <Description>A 6.4-magnitude earthquake has hit the coast of central Chile.</Description>
-        <MainBody>20 Jun 2015 - 5:07pm
-6.4-magnitude quake jolts Chile
-A picture made available on 10 June 2015 shows a general view of the Estadio Nacional stadium in Santiago, Chile. (EPA)
-A 6.4-magnitude earthquake has hit the coast of central Chile.
-Source:
-There were no immediate reports of injuries or damage.
-Saturday's quake struck about 75km off the port city of Talcahuano on the Bay of Concepcion.
-Talcahuano hosts a key naval base and is the main industrial and fishing port in the region.
-</MainBody>
-    </Article>
     <Article id="4">
-        <date>Sat Jun 20 04:33:06 EEST 2015</date>
+        <date>Sat Jun 20 19:33:06 EEST 2015</date>
         <title>Cops bust woman with breast implants containing 1.5 kilos of liquid cocaine</title>
         <Link>http://sbs.feedsportal.com/c/34692/f/637534/s/4768ed93/sc/3/l/0L0Ssbs0N0Bau0Cnews0Carticle0C20A150C0A60C20A0Ccops0Ebust0Ewoman0Ebreast0Eimplants0Econtaining0E150Ekilos0Eliquid0Ecocaine/story01.htm</Link>
         <Description>Police in Colombia have arrested a woman from Honduras with breast implants containing 1.5 kilograms of liquid cocaine.</Description>
@@ -92,7 +92,7 @@ The woman was taken to a hospital, where the cocaine was removed from her body.
 </MainBody>
     </Article>
     <Article id="5">
-        <date>Wed May 20 22:53:05 EEST 2015</date>
+        <date>Thu May 21 13:53:05 EEST 2015</date>
         <title>Colombian mudslide death toll rises to 83</title>
         <Link>http://sbs.feedsportal.com/c/34692/f/637534/s/467f88a6/sc/40/l/0L0Ssbs0N0Bau0Cnews0Carticle0C20A150C0A50C210Ccolombian0Emudslide0Edeath0Etoll0Erises0E83/story01.htm</Link>
         <Description>Authorities say the death toll in the Colombian mudslide has risen to 83, with the number of people still missing unclear.</Description>
@@ -110,7 +110,7 @@ It's not clear how many people are still missing. Authorities have mentioned 150
 </MainBody>
     </Article>
     <Article id="6">
-        <date>Wed May 20 22:50:27 EEST 2015</date>
+        <date>Thu May 21 13:50:27 EEST 2015</date>
         <title>Chilean spy amasses 500 years in prison</title>
         <Link>http://sbs.feedsportal.com/c/34692/f/637534/s/467f88a7/sc/24/l/0L0Ssbs0N0Bau0Cnews0Carticle0C20A150C0A50C210Cchilean0Espy0Eamasses0E50A0A0Eyears0Eprison/story01.htm</Link>
         <Description>Eighty-six-year-old General Manuel Contreras has racked up 500 years in prison sentences as the former chief of a fear spy agency in Chile.</Description>
@@ -128,8 +128,8 @@ According to an official report, 40,018 people were imprisoned, tortured or slai
     </Article>
     <Article id="7">
         <date>Sun May 17 16:49:39 EEST 2015</date>
-        <title>Chile teen dies after euthanasia plea</title>
-        <Link>http://sbs.feedsportal.com/c/34692/f/637534/s/466084c6/sc/3/l/0L0Ssbs0N0Bau0Cnews0Carticle0C20A150C0A50C170Cchile0Eteen0Edies0Eafter0Eeuthanasia0Eplea/story01.htm</Link>
+        <title>Chilean teen dies after public euthanasia campaign</title>
+        <Link>http://sbs.feedsportal.com/c/34692/f/637534/s/466102e1/sc/3/l/0L0Ssbs0N0Bau0Cnews0Carticle0C20A150C0A50C170Cchilean0Eteen0Edies0Eafter0Epublic0Eeuthanasia0Ecampaign/story01.htm</Link>
         <Description>A Chilean teenage girl who made a YouTube video in an unsuccessful plea to end her life, has died from lung problems caused by cystic fibrosis.</Description>
         <MainBody>17 May 2015 - 10:22am
 Chilean teen dies after public euthanasia campaign
@@ -145,9 +145,9 @@ Valentina later changed her mind after meeting people who responded to her video
 </MainBody>
     </Article>
     <Article id="8">
-        <date>Sun May 17 01:49:39 EEST 2015</date>
-        <title>Chilean teen dies after public euthanasia campaign</title>
-        <Link>http://sbs.feedsportal.com/c/34692/f/637534/s/466102e1/sc/3/l/0L0Ssbs0N0Bau0Cnews0Carticle0C20A150C0A50C170Cchilean0Eteen0Edies0Eafter0Epublic0Eeuthanasia0Ecampaign/story01.htm</Link>
+        <date>Sun May 17 16:49:39 EEST 2015</date>
+        <title>Chile teen dies after euthanasia plea</title>
+        <Link>http://sbs.feedsportal.com/c/34692/f/637534/s/466084c6/sc/3/l/0L0Ssbs0N0Bau0Cnews0Carticle0C20A150C0A50C170Cchile0Eteen0Edies0Eafter0Eeuthanasia0Eplea/story01.htm</Link>
         <Description>A Chilean teenage girl who made a YouTube video in an unsuccessful plea to end her life, has died from lung problems caused by cystic fibrosis.</Description>
         <MainBody>17 May 2015 - 10:22am
 Chilean teen dies after public euthanasia campaign
@@ -183,7 +183,7 @@ According to witnesses, the driver lost control on a downhill turn.
 </MainBody>
     </Article>
     <Article id="10">
-        <date>Wed May 13 03:38:14 EEST 2015</date>
+        <date>Wed May 13 18:38:14 EEST 2015</date>
         <title>Haiti fights to end child adoption rackets</title>
         <Link>http://sbs.feedsportal.com/c/34692/f/637534/s/46427a89/sc/7/l/0L0Ssbs0N0Bau0Cnews0Carticle0C20A150C0A50C130Chaiti0Efights0Eend0Echild0Eadoption0Erackets/story01.htm</Link>
         <Description>The Haitian government is launching a public awareness campaign to educate Haitian parents about dodgy international adoption schemes.</Description>
@@ -208,23 +208,6 @@ Ms Peduto says it will take time for the changes to fully take hold, though.
     </Article>
     <Article id="11">
         <date>Sat May 09 15:01:45 EEST 2015</date>
-        <title>Judge refuses to order abortion for 11yo</title>
-        <Link>http://sbs.feedsportal.com/c/34692/f/637534/s/46248540/sc/7/l/0L0Ssbs0N0Bau0Cnews0Carticle0C20A150C0A50C0A90Cjudge0Erefuses0Eorder0Eabortion0E11yo/story01.htm</Link>
-        <Description>A mentally disabled 11-year-old girl will be able to keep her baby, after a Uruguayan judge ruled the courts don't have the authority to order an abortion.</Description>
-        <MainBody>9 May 2015 - 8:47am
-Uruguyan judge denies abortion order for 11yo
-A mentally disabled 11-year-old girl will be able to keep her baby, after a Uruguayan judge ruled the courts don't have the authority to order an abortion.
-Source:
-0
-A judge in Uruguay has ruled it is not up to the courts to decide whether an 11-year-old mentally disabled girl has an abortion even though her mother sought its authorisation.
-Judge Raquel Gini says the girl wants to "continue with the pregnancy" and to maintain her relationship with the 41-year-old man who is accused of sexually abusing her and is now imprisoned.
-A court spokesman said on Friday that the judge determined that under Chilean law "a decision should be reached between the girl, her mother and the doctors".
-The judge said doctors found the pregnancy poses no medical risks to the girl, although she lacks the ability to fully understand her situation.
-In light of the court's ruling, the mother was expected to drop efforts to seek an abortion.
-</MainBody>
-    </Article>
-    <Article id="12">
-        <date>Sat May 09 00:01:45 EEST 2015</date>
         <title>Uruguyan judge denies abortion order for 11yo</title>
         <Link>http://sbs.feedsportal.com/c/34692/f/637534/s/4624ca90/sc/7/l/0L0Ssbs0N0Bau0Cnews0Carticle0C20A150C0A50C0A90Curuguyan0Ejudge0Edenies0Eabortion0Eorder0E11yo/story01.htm</Link>
         <Description>A mentally disabled 11-year-old girl will be able to keep her baby, after a Uruguayan judge ruled the courts don't have the authority to order an abortion.</Description>
@@ -240,8 +223,25 @@ The judge said doctors found the pregnancy poses no medical risks to the girl, a
 In light of the court's ruling, the mother was expected to drop efforts to seek an abortion.
 </MainBody>
     </Article>
+    <Article id="12">
+        <date>Sat May 09 15:01:45 EEST 2015</date>
+        <title>Judge refuses to order abortion for 11yo</title>
+        <Link>http://sbs.feedsportal.com/c/34692/f/637534/s/46248540/sc/7/l/0L0Ssbs0N0Bau0Cnews0Carticle0C20A150C0A50C0A90Cjudge0Erefuses0Eorder0Eabortion0E11yo/story01.htm</Link>
+        <Description>A mentally disabled 11-year-old girl will be able to keep her baby, after a Uruguayan judge ruled the courts don't have the authority to order an abortion.</Description>
+        <MainBody>9 May 2015 - 8:47am
+Uruguyan judge denies abortion order for 11yo
+A mentally disabled 11-year-old girl will be able to keep her baby, after a Uruguayan judge ruled the courts don't have the authority to order an abortion.
+Source:
+0
+A judge in Uruguay has ruled it is not up to the courts to decide whether an 11-year-old mentally disabled girl has an abortion even though her mother sought its authorisation.
+Judge Raquel Gini says the girl wants to "continue with the pregnancy" and to maintain her relationship with the 41-year-old man who is accused of sexually abusing her and is now imprisoned.
+A court spokesman said on Friday that the judge determined that under Chilean law "a decision should be reached between the girl, her mother and the doctors".
+The judge said doctors found the pregnancy poses no medical risks to the girl, although she lacks the ability to fully understand her situation.
+In light of the court's ruling, the mother was expected to drop efforts to seek an abortion.
+</MainBody>
+    </Article>
     <Article id="13">
-        <date>Fri May 08 23:47:39 EEST 2015</date>
+        <date>Sat May 09 14:47:39 EEST 2015</date>
         <title>About 20 sei whales beached along Chile</title>
         <Link>http://sbs.feedsportal.com/c/34692/f/637534/s/46244f0d/sc/32/l/0L0Ssbs0N0Bau0Cnews0Carticle0C20A150C0A50C0A90Cabout0E20A0Esei0Ewhales0Ebeached0Ealong0Echile/story01.htm</Link>
         <Description>More than 20 endangered whales have been founded beached on the Chilean coast.</Description>
@@ -258,7 +258,7 @@ Officials said they were trying to determine what caused the whales to wind up o
 </MainBody>
     </Article>
     <Article id="14">
-        <date>Wed Apr 15 06:18:20 EEST 2015</date>
+        <date>Wed Apr 15 21:18:20 EEST 2015</date>
         <title>Streetlamps from old soda bottles making streets safer for women</title>
         <Link>http://sbs.feedsportal.com/c/34692/f/637534/s/45667117/sc/4/l/0L0Ssbs0N0Bau0Cnews0Carticle0C20A150C0A40C150Cstreetlamps0Eold0Esoda0Ebottles0Emaking0Estreets0Esafer0Ewomen/story01.htm</Link>
         <Description>Low-cost street lights are brightening up public spaces and creating a safer environment for women in Bogotá, Colombia.</Description>
@@ -288,6 +288,29 @@ This article was originally published on Quartz .  All rights reserved. Distribu
 </MainBody>
     </Article>
     <Article id="15">
+        <date>Tue Mar 31 12:05:33 EEST 2015</date>
+        <title>Death toll in Chile floods rises to 18</title>
+        <Link>http://sbs.feedsportal.com/c/34692/f/637534/s/44f52460/sc/32/l/0L0Ssbs0N0Bau0Cnews0Carticle0C20A150C0A30C310Cdeath0Etoll0Echile0Efloods0Erises0E18/story01.htm</Link>
+        <Description>Several of the 33 Chilean miners who were trapped underground in 2010 have lost their homes in floods in the same region.</Description>
+        <MainBody>31 Mar 2015 - 2:36pm
+Death toll in Chile floods rises to 18
+An undated photograph provided by Chilean Navy shows members of Marine Corps squad of Chilean Navy during cleaning works at Tal Tal locality, 1200 km. at northern Santiago de Chile, Chile. (EPA/CHILEAN NAVY)
+Several of the 33 Chilean miners who were trapped underground in 2010 have lost their homes in floods in the same region.
+Source:
+0
+At least 18 people have been killed in flash floods that hit a normally arid region of northern Chile last week, and about the same number remain missing.
+The latest death toll from the devastating floods was released after six more bodies were found late Sunday and Monday, as rescue workers continued dealing with the aftermath of the torrential rains in Atacama region, home to the world's driest desert.
+Chilean President Michelle Bachelet had warned at the weekend that the situation in the area was "bleak" and that the death toll was likely to rise.
+Those who lost their homes in the floods included several of the 33 miners who were trapped underground in the same region for more than two months in 2010, then rescued in an operation that captured worldwide attention.
+Rescued miners Ariel Ticona, Esteban Rojas, Victor Segovia and Victor Zamora all lost their houses to the raging floodwaters in small mining towns in the Atacama interior.
+Ticona, Rojas and Segovia had initially been reported missing, but the leader of the group that survived the mine collapse ordeal, Luis Urzua, said they had been located.
+"Physically they're fine, but ... they lost everything," he told AFP.
+"The region is going to take a long time to recover. It's like a tsunami hit us."
+The downpour began late on Tuesday and lashed the area for hours, turning riverbeds that had been dry for years into torrents.
+The interior ministry declared a state of emergency on Wednesday and sent in the military to maintain order and help with the cleanup effort.
+</MainBody>
+    </Article>
+    <Article id="16">
         <date>Tue Mar 31 06:36:01 EEST 2015</date>
         <title>17 killed, 20 missing after Chile floods</title>
         <Link>http://sbs.feedsportal.com/c/34692/f/637534/s/44f31eff/sc/11/l/0L0Ssbs0N0Bau0Cnews0Carticle0C20A150C0A30C310C170Ekilled0E20A0Emissing0Eafter0Echile0Efloods/story01.htm</Link>
@@ -310,7 +333,7 @@ The downpour began late on Tuesday and lashed the area for hours, turning riverb
 The interior ministry declared a state of emergency on Wednesday and sent in the military to maintain order and help with the cleanup effort.
 </MainBody>
     </Article>
-    <Article id="16">
+    <Article id="17">
         <date>Mon Mar 30 22:36:23 EEST 2015</date>
         <title>French probe into Argentina chopper crash</title>
         <Link>http://sbs.feedsportal.com/c/34692/f/637534/s/4448ee48/sc/11/l/0L0Ssbs0N0Bau0Cnews0Carticle0C20A150C0A30C120Cfrench0Eprobe0Eargentina0Echopper0Ecrash/story01.htm</Link>
@@ -332,34 +355,11 @@ Pictures of the trio, covered with flowers, were laid out at the National Instit
 The victims - and five other sports stars including former France and Arsenal footballer Sylvain Wiltord - were contestants in the reality TV series Dropped, which involved sports personalities testing their survival skills in inhospitable environments.
 </MainBody>
     </Article>
-    <Article id="17">
-        <date>Mon Mar 30 20:05:33 EEST 2015</date>
-        <title>Death toll in Chile floods rises to 18</title>
-        <Link>http://sbs.feedsportal.com/c/34692/f/637534/s/44f52460/sc/32/l/0L0Ssbs0N0Bau0Cnews0Carticle0C20A150C0A30C310Cdeath0Etoll0Echile0Efloods0Erises0E18/story01.htm</Link>
-        <Description>Several of the 33 Chilean miners who were trapped underground in 2010 have lost their homes in floods in the same region.</Description>
-        <MainBody>31 Mar 2015 - 2:36pm
-Death toll in Chile floods rises to 18
-An undated photograph provided by Chilean Navy shows members of Marine Corps squad of Chilean Navy during cleaning works at Tal Tal locality, 1200 km. at northern Santiago de Chile, Chile. (EPA/CHILEAN NAVY)
-Several of the 33 Chilean miners who were trapped underground in 2010 have lost their homes in floods in the same region.
-Source:
-0
-At least 18 people have been killed in flash floods that hit a normally arid region of northern Chile last week, and about the same number remain missing.
-The latest death toll from the devastating floods was released after six more bodies were found late Sunday and Monday, as rescue workers continued dealing with the aftermath of the torrential rains in Atacama region, home to the world's driest desert.
-Chilean President Michelle Bachelet had warned at the weekend that the situation in the area was "bleak" and that the death toll was likely to rise.
-Those who lost their homes in the floods included several of the 33 miners who were trapped underground in the same region for more than two months in 2010, then rescued in an operation that captured worldwide attention.
-Rescued miners Ariel Ticona, Esteban Rojas, Victor Segovia and Victor Zamora all lost their houses to the raging floodwaters in small mining towns in the Atacama interior.
-Ticona, Rojas and Segovia had initially been reported missing, but the leader of the group that survived the mine collapse ordeal, Luis Urzua, said they had been located.
-"Physically they're fine, but ... they lost everything," he told AFP.
-"The region is going to take a long time to recover. It's like a tsunami hit us."
-The downpour began late on Tuesday and lashed the area for hours, turning riverbeds that had been dry for years into torrents.
-The interior ministry declared a state of emergency on Wednesday and sent in the military to maintain order and help with the cleanup effort.
-</MainBody>
-    </Article>
     <Article id="18">
         <date>Sun Mar 29 01:45:31 EET 2015</date>
-        <title>Dozens killed in South American storms, many missing</title>
-        <Link>http://sbs.feedsportal.com/c/34692/f/637534/s/44e57076/sc/40/l/0L0Ssbs0N0Bau0Cnews0Carticle0C20A150C0A30C280Cdozens0Ekilled0Esouth0Eamerican0Estorms0Emany0Emissing/story01.htm</Link>
-        <Description>Dozens of people have been killed during extreme storms in Ecuador and Chile.</Description>
+        <title>Dozens killed in extreme storms in Ecuador and Chile</title>
+        <Link>http://sbs.feedsportal.com/c/34692/f/637534/s/44e582cd/sc/11/l/0L0Ssbs0N0Bau0Cnews0Carticle0C20A150C0A30C280Cdozens0Ekilled0Eextreme0Estorms0Eecuador0Eand0Echile/story01.htm</Link>
+        <Description>Dozens of people have been killed during storms which brought intense rains, landslides and high waves to Ecuador and Chile, with many more missing.</Description>
         <MainBody>29 Mar 2015 - 8:16am
 Dozens killed in extreme storms in Ecuador and Chile
 Chilean soldiers help a group of people that were crossing the river flow formed after torrential floods and rains in Charaal, 1000 km north of Santiago de Chile, Chile, 27 March 2015.
@@ -382,8 +382,8 @@ The 700 kilometre-long Atacama desert region between the Andes range and the sea
     </Article>
     <Article id="19">
         <date>Sun Mar 29 01:45:31 EET 2015</date>
-        <title>Dozens killed in SAmerican storms</title>
-        <Link>http://sbs.feedsportal.com/c/34692/f/637534/s/44e52a6d/sc/40/l/0L0Ssbs0N0Bau0Cnews0Carticle0C20A150C0A30C280Cdozens0Ekilled0Esamerican0Estorms/story01.htm</Link>
+        <title>Dozens killed in South American storms, many missing</title>
+        <Link>http://sbs.feedsportal.com/c/34692/f/637534/s/44e57076/sc/40/l/0L0Ssbs0N0Bau0Cnews0Carticle0C20A150C0A30C280Cdozens0Ekilled0Esouth0Eamerican0Estorms0Emany0Emissing/story01.htm</Link>
         <Description>Dozens of people have been killed during extreme storms in Ecuador and Chile.</Description>
         <MainBody>29 Mar 2015 - 8:16am
 Dozens killed in extreme storms in Ecuador and Chile
